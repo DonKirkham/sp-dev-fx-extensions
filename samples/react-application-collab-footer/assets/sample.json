@@ -1,15 +1,15 @@
 [
   {
-    "name": "pnp-sp-dev-spfx-extensions-react-application-collab-footer",
+    "name": "pnp-sp-dev-spfx-extensions-react-react-application-collab-footer",
     "source": "pnp",
-    "title": "Collaboration Footer Application Customizers",
-    "shortDescription": "This application customizer provides you the ability to include a footer designed for normal and group associated teams sites.",
+    "title": "SharePoint Collaboration Footer v8.0.0",
+    "shortDescription": "Enterprise-grade SharePoint footer with hybrid architecture, advanced link management, and modern user experience",
     "url": "https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-application-collab-footer",
     "longDescription": [
-      "This application customizer provides you the ability to include a footer designed for normal and group associated teams sites."
+      "Enterprise-grade SharePoint footer with hybrid architecture, advanced link management, and modern user experience"
     ],
-    "creationDateTime": "2020-01-01",
-    "updateDateTime": "2020-01-01",
+    "creationDateTime": "2023-12-25",
+    "updateDateTime": "2023-12-31",
     "products": [
       "SharePoint"
     ],
@@ -20,34 +20,90 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.4.0"
+        "value": "1.21.1"
       }
     ],
-"tags": [],
+    "tags": [],
     "categories": [
       "SPFX-APPLICATION-EXTENSION"
     ],
     "thumbnails": [
       {
+        "name": "1.png",
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-starter-kit/raw/master/assets/images/components/ext-collab-footer.gif",
-        "alt": "Collaboration Footer Application Customizers"
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-application-collab-footer/assets/10.png",
+        "alt": "Web Part Preview"
+      },
+      {
+        "name": "10.png",
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-application-collab-footer/assets/1.png",
+        "alt": "Web Part Preview"
+      },
+      {
+        "name": "2.png",
+        "type": "image",
+        "order": 102,
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-application-collab-footer/assets/2.png",
+        "alt": "Web Part Preview"
+      },
+      {
+        "name": "3.png",
+        "type": "image",
+        "order": 103,
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-application-collab-footer/assets/3.png",
+        "alt": "Web Part Preview"
+      },
+      {
+        "name": "4.png",
+        "type": "image",
+        "order": 104,
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-application-collab-footer/assets/4.png",
+        "alt": "Web Part Preview"
+      },
+      {
+        "name": "5.png",
+        "type": "image",
+        "order": 105,
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-application-collab-footer/assets/5.png",
+        "alt": "Web Part Preview"
+      },
+      {
+        "name": "6.png",
+        "type": "image",
+        "order": 106,
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-application-collab-footer/assets/6.png",
+        "alt": "Web Part Preview"
+      },
+      {
+        "name": "7.png",
+        "type": "image",
+        "order": 107,
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-application-collab-footer/assets/7.png",
+        "alt": "Web Part Preview"
+      },
+      {
+        "name": "8.png",
+        "type": "image",
+        "order": 108,
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-application-collab-footer/assets/8.png",
+        "alt": "Web Part Preview"
+      },
+      {
+        "name": "9.png",
+        "type": "image",
+        "order": 109,
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-application-collab-footer/assets/9.png",
+        "alt": "Web Part Preview"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "PaoloPia",
-        "company": "PiaSys.com",
-        "pictureUrl": "https://github.com/PaoloPia.png",
-        "name": "Paolo Pialorsi",
-        "twitter": "PaoloPia"
-      },
-      {
-        "gitHubAccount": "spdavid",
-        "company": "Zalo Solutions AB",
-        "pictureUrl": "https://github.com/spdavid.png",
-        "name": "David Opdendries"
+        "gitHubAccount": "https://github.com/NicolasKheirallah",
+        "pictureUrl": "https://github.com/NicolasKheirallah.png",
+        "name": "Nico"
       }
     ],
     "references": [

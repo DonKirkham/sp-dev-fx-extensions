@@ -1,4 +1,5 @@
 {
+  "extends": "./node_modules/@microsoft/rush-stack-compiler-4.7/includes/tsconfig-web.json",
   "compilerOptions": {
     "target": "es5",
     "forceConsistentCasingInFileNames": true,
@@ -9,6 +10,10 @@
     "sourceMap": true,
     "experimentalDecorators": true,
     "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "outDir": "lib",
     "typeRoots": [
       "./node_modules/@types",
@@ -16,19 +21,18 @@
     ],
     "types": [
       "es6-promise",
-      "webpack-env"
+      "webpack-env",
+      "jest"
     ],
     "lib": [
-      "es5",
+      "es6",
       "dom",
+      "es2015.promise",
       "es2015.collection"
     ]
   },
   "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "lib"
+    "src/**/*.ts",
+    "src/**/*.tsx"
   ]
 }

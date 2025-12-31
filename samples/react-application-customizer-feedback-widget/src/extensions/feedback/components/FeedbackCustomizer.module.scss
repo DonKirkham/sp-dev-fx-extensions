@@ -1,0 +1,162 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.feedback-widget-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: $ms-color-themeLight;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: $ms-color-themePrimary;
+  padding: 0.5rem 1rem 0 1rem;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  z-index: 10;
+}
+.feedback-widget-container:hover {
+  background-color: $ms-color-themeDark;
+}
+.text-style {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: $ms-color-themeLight;
+}
+.textArea__style {
+  width: 255px;
+  height: 150px;
+  border: 1px solid $ms-color-neutralLight;
+  font-size: 12px;
+  resize: none;
+  border-radius: 4px;
+}
+.textArea__style:focus {
+  border: 1px solid $ms-color-themePrimary;
+}
+.feedbackWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+}
+.buttonWrapper {
+  cursor: pointer;
+  display: flex;
+  padding: 1px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+  gap: 9px;
+  align-items: flex-start;
+}
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 295px;
+  position: fixed;
+  height: 320px;
+  right: 45px;
+  border-radius: 4px;
+  border: 1px solid #d7d7d7;
+  margin-bottom: 25.5rem;
+  background: #fff;
+  animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+  box-shadow: 0 10px 12px rgba(158, 73, 73, 0.2);
+  padding-bottom: 1rem;
+}
+@keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.popup-container-exit {
+  animation: slide-down 1.5s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+@keyframes slide-down {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+}
+.downarrow {
+  width: 16px;
+  height: 16px;
+  position: fixed;
+  display: flex;
+  bottom: -2%;
+  left: 89%;
+  rotate: 45deg;
+  background: #fff;
+}
+.header-container {
+  display: flex;
+  gap: 1rem;
+  border-radius: 4px;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.7rem;
+  background: $ms-color-themeSecondary;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+.errorTxt {
+  font-size: 11px;
+  margin: 0px;
+  color: red;
+  font-style: normal;
+  font-size: 14px;
+}
+.submitbtn {
+  background-color: $ms-color-themePrimary;
+  border: none;
+  color: #fff;
+  padding: 3px 20px 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 100px;
+  width: fit-content;
+  font-weight: 600;
+}
+.submitbtn:hover {
+  background-color: $ms-color-themeDark;
+}
+
+// styles for sucess page
+.successWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+}
+.widget-left{
+  position: absolute;
+  left: 35px;
+  top: auto;
+  bottom: 0;
+}
+.widget-right{
+  position: absolute;
+  right: 35px;
+  top: auto;
+  bottom: 0;
+}
+.popup-left{
+  left:80px
+}
+.downarrow-left{
+  left: 6%;
+}
